@@ -188,9 +188,15 @@ var document, $, trimLink, ga;
           if ($(li).has(filter + ':contains("' + value + '")').length && $(li).css("display") != "none") {
             $(li).css('display', 'block');
           }
-          else { $(li).css('display', 'none'); }
+          else { 
+            $(li).css('display', 'none');
+            //$('input[type="checkbox"].quick-action-select').prop('checked', false); 
+          }
         }
-        else { $(li).css('display', 'none'); }
+        else {
+          $(li).css('display', 'none');
+          //$('input[type="checkbox"].quick-action-select').prop('checked', false);
+        }
       });
     };
 
@@ -246,6 +252,7 @@ var document, $, trimLink, ga;
       }
     };
 
+    //$('#select-all-questions #select-all').prop('checked', false)
     showAllInProgress();
     getFilterValues();
     questionCounter();
