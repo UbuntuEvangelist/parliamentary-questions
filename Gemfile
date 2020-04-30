@@ -1,35 +1,35 @@
 source 'https://rubygems.org'
 
-gem 'bootstrap-will_paginate'
-gem 'business_time'
-gem 'devise_invitable'
-gem 'devise'
-gem 'font-awesome-rails'
+gem 'bootstrap-will_paginate', '>= 0.0.10'
+gem 'business_time', '>= 0.7.4'
+gem 'devise_invitable', '>= 1.3.6'
+gem 'devise', '>= 3.4.0'
+gem 'font-awesome-rails', '>= 4.2.0.0'
 gem 'govuk_frontend_toolkit', '~> 3.1.0'
 gem 'holiday_calendar', git: 'https://github.com/stephenrichards/holiday_calendar'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.2'
 gem 'logstasher'
 gem 'mechanize'
 gem 'moj_template', '0.23.0'
-gem 'momentjs-rails', '~> 2.5.0'
+gem 'momentjs-rails', '~> 2.5.1'
 gem 'nokogiri'
 gem 'paper_trail', '~> 3.0.5'
 gem 'pg'
-gem 'rails', '~> 4.1.7'
-gem 'sass-rails', '~> 4.0.0'
+gem 'rails', '~> 4.2.8'
+gem 'sass-rails', '~> 4.0.3'
 gem 'select2-rails'
 gem 'slim'
 gem 'statsd-ruby'
-gem 'turbolinks'
-gem 'uglifier', '>= 1.3.0'
+gem 'turbolinks', '>= 2.4.0'
+gem 'uglifier', '>= 2.5.3'
 gem 'unicorn'
 gem 'whenever', :require => false
 gem 'will_paginate'
 
 group :development do
-  gem 'rails-erd'
-  gem 'annotate'
-  gem 'rails_db_info'
+  gem 'rails-erd', '>= 1.3.1'
+  gem 'annotate', '>= 2.6.5'
+  gem 'rails_db_info', '>= 0.2.0'
 end
 
 group :test do
@@ -41,13 +41,13 @@ group :test, :development do
   gem 'sinatra'
   gem 'poltergeist'
   gem 'database_cleaner'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.4.1'
   gem 'faker'
   gem 'launchy'
   gem 'letter_opener'
   gem 'pry-rails'
-  gem 'rspec-rails'
-  gem 'shoulda-matchers', require: false
+  gem 'rspec-rails', '>= 3.1.0'
+  gem 'shoulda-matchers', '>= 2.7.0', require: false
   gem 'timecop'
   gem "brakeman", :require => false
 end
