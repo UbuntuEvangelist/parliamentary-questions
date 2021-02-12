@@ -15,7 +15,7 @@ gem 'momentjs-rails', '~> 2.5.0'
 gem 'nokogiri'
 gem 'paper_trail', '~> 3.0.5'
 gem 'pg'
-gem 'rails', '~> 4.1.7'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'sass-rails', '~> 4.0.0'
 gem 'select2-rails'
 gem 'slim'
@@ -29,7 +29,7 @@ gem 'will_paginate'
 group :development do
   gem 'rails-erd'
   gem 'annotate'
-  gem 'rails_db_info'
+  gem 'rails_db_info', '>= 0.2.0'
 end
 
 group :test do
