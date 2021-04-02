@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'bootstrap-will_paginate'
 gem 'business_time'
-gem 'devise_invitable'
+gem 'devise_invitable', '>= 1.3.6'
 gem 'devise'
 gem 'font-awesome-rails'
 gem 'govuk_frontend_toolkit', '~> 3.1.0'
