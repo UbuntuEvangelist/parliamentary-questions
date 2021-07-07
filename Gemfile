@@ -43,8 +43,8 @@ group :test, :development do
   gem 'database_cleaner'
   gem 'factory_girl_rails'
   gem 'faker'
-  gem 'launchy'
-  gem 'letter_opener'
+  gem 'launchy', '>= 2.4.2'
+  gem 'letter_opener', '>= 1.2.0'
   gem 'pry-rails'
   gem 'rspec-rails'
   gem 'shoulda-matchers', require: false
