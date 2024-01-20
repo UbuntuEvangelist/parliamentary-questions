@@ -38,7 +38,7 @@ end
 
 group :test, :development do
   gem 'awesome_print'
-  gem 'sinatra'
+  gem 'sinatra', '>= 4.0.0'
   gem 'poltergeist'
   gem 'database_cleaner'
   gem 'factory_girl_rails'
